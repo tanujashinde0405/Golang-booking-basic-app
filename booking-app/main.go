@@ -46,6 +46,7 @@ func main() {
 		}
 		if !isValidEmail {
 			fmt.Println("Email address you entered does not contain @ sign!")
+			fmt.Println("Please provide valid details!")
 		}
 		if !isValidTicketNumber {
 			fmt.Println("Number of tickets are invalid")
